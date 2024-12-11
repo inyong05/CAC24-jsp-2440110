@@ -1,0 +1,17 @@
+USE jsp;
+
+show tables;
+
+select * from user;
+select * from feed;
+
+create table member1028(
+	sid int primary key auto_increment,
+    name varchar(32) not null,
+    uid varchar(30) not null,
+    upw varchar(30) not null,
+    phone varchar(12)
+    );
+    
+    SELECT * From member1028;
+    
